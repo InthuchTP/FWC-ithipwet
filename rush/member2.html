@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Inthuch</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> /*format etc*/
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> /*ez logo*/
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body class="bg-white">
+
+    <nav class="navbar navbar-expand-lg bg-white sticky-top navbar-custom py-3">
+        <div class="container-fluid px-4 px-md-5">
+            <a class="navbar-brand fw-bold fs-2 text-dark" href="#home">Portfolio</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav fs-5">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HOME SECTION -->
+    <section id="home" class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center p-4" style="background-color: #d3b50d;">
+        <h1 class="display-3 fw-bold mb-3">Welcome to My Portfolio</h1>
+        <p class="fs-4 text-muted mb-4">ยินดีต้อนรับสู่เว็บไซต์แนะนำผลงานของผม</p>
+        <a href="#about" class="btn btn-outline-dark btn-lg px-4 rounded-pill">มาทำความรู้จักกัน</a>
+    </section>
+
+    <!-- 3. ABOUT SECTION -->
+    <section id="about" class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center p-4 border-top" style="background-color: #313131;">
+        <div class="mb-4">
+            <img src="imax.jpg" alt="Profile" class="rounded-circle shadow-sm" style="width: 250px; height: 250px; object-fit: cover;">
+        </div>
+        <h1 class="display-4 fw-bold mb-3 text-white">About Me</h1>
+        <p class="fs-4 text-white max-w-75">
+            My name is Inthuch Thipwet
+            <br> You can just call me Imax
+            <br> I'm 20 years old
+            <br> I am studying Information Technology
+            <br> at King Mongkut's Institute of Technology Ladkrabang
+            <br> Nice to meet you all.
+        </p>
+        
+    </section>
+
+    <!-- 4. SKILLS SECTION -->
+    <section id="skills" class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center p-4 border-top" style="background-color: #d1ab19;">
+        <h1 class="display-4 fw-bold mb-5 text-dark">Skills</h1>
+
+        <div class="d-flex flex-wrap justify-content-center gap-4 align-items-start">
+            
+            <!-- Python -->
+            <div class="d-flex flex-column align-items-center gap-3">
+                <span class="badge bg-dark fs-6 px-3 py-2 rounded-pill d-inline-flex align-items-center gap-2 shadow-sm">
+                    <i class="devicon-python-plain colored"></i> Python
+                </span>
+                <div class="vertical-progress shadow-sm">
+                    <div class="progress-bar-vertical" style="height: 67%;"></div>
+                </div>
+                <span class="fw-bold fs-5 text-dark">67%</span>
+            </div>
+
+            <!-- Java -->
+            <div class="d-flex flex-column align-items-center gap-3">
+                <span class="badge bg-dark fs-6 px-3 py-2 rounded-pill d-inline-flex align-items-center gap-2 shadow-sm">
+                    <i class="devicon-java-plain colored"></i> Java
+                </span>
+                <div class="vertical-progress shadow-sm">
+                    <div class="progress-bar-vertical" style="height: 50%;"></div>
+                </div>
+                <span class="fw-bold fs-5 text-dark">50%</span>
+            </div>
+
+            <!-- C / C# -->
+            <div class="d-flex flex-column align-items-center gap-3">
+                <span class="badge bg-dark fs-6 px-3 py-2 rounded-pill d-inline-flex align-items-center gap-2 shadow-sm">
+                    <i class="devicon-c-plain colored"></i> / <i class="devicon-csharp-plain colored"></i>
+                </span>
+                <div class="vertical-progress shadow-sm">
+                    <div class="progress-bar-vertical" style="height: 40%;"></div>
+                </div>
+                <span class="fw-bold fs-5 text-dark">40%</span>
+            </div>
+
+            <!-- MySQL -->
+            <div class="d-flex flex-column align-items-center gap-3">
+                <span class="badge bg-dark fs-6 px-3 py-2 rounded-pill d-inline-flex align-items-center gap-2 shadow-sm">
+                    <i class="devicon-mysql-plain colored"></i> MySQL
+                </span>
+                <div class="vertical-progress shadow-sm">
+                    <div class="progress-bar-vertical" style="height: 45%;"></div>
+                </div>
+                <span class="fw-bold fs-5 text-dark">45%</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. PROJECTS SECTION -->
+    <section id="projects" class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center p-4 border-top" style="background-color: #313131;">
+        <h1 class="display-4 fw-bold mb-3 text-white">Project</h1>
+        <p class="fs-4 text-dark mb-4 text-white">
+            A Java OOP project: Offline Music Player Platform
+        </p>
+        <div class="border border-dark rounded-4 p-2 shadow-sm bg-white" style="max-width: 90%; width: 620px;">
+            <img src="fung.png" alt="Certificate" class="img-fluid rounded-3 w-100">
+        </div>
+    </section>
+
+    <!-- 6. CONTACT SECTION -->
+    <section id="contact" class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center p-4 border-top" style="background-color: #d3b50d;">
+        <h1 class="display-4 fw-bold mb-4">Contact</h1>
+        <div class="d-flex gap-3 mb-4">
+            <a href="https://github.com/InthuchTP" target="_blank" class="btn btn-dark btn-lg px-4 rounded-pill">GitHub</a>
+            <a href="https://www.facebook.com/inthuch.thipwet/" target="_blank" class="btn btn-outline-dark btn-lg px-4 rounded-pill">facebook</a>
+        </div>
+        <div class="fs-5">
+            <span class="fw-bold">Email: </span>
+            <a href="mailto:imax.inthuch@gmail.com" class="text-decoration-none text-dark">imax.inthuch@gmail.com</a>
+        </div>
+    </section>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

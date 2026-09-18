@@ -1,0 +1,35 @@
+html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            scroll-margin-top: 80px;
+        }
+
+        .navbar-custom {
+            border-bottom: 2px solid #000;
+        }
+        .navbar-custom .nav-link {
+            color: #810000;
+            font-weight: 500;
+            margin-left: 1.25rem;
+        }
+        .navbar-custom .nav-link:hover {
+            opacity: 0.6;
+        }
+        .vertical-progress {
+            width: 60px;
+            height: 180px;
+            background-color: rgba(0, 0, 0, 0.08); /* พื้นหลังหลอด */
+            border: 2px solid #000;
+            border-radius: 67px;
+            display: flex;
+            flex-direction: column-reverse; /* ดันสีขึ้น */
+            overflow: hidden; /* กันทะลุขอบ มนๆ */
+            position: relative;
+        }
+
+        .progress-bar-vertical {
+            background-color: #000; /* ในหลอด */
+            width: 100%;
+        }
